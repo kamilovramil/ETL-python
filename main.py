@@ -17,7 +17,7 @@ conn = jaydebeapi.connect(
 curs = conn.cursor()
 conn.jconn.setAutoCommit(False)
 
-# В последний день понял что назвал таблицы не совсем так как в ТЗ, сорри
+# Очистка
 
 curs.execute( "truncate table de1m.kmlv_stg_cards" )
 curs.execute( "truncate table de1m.kmlv_stg_cards_del" )
