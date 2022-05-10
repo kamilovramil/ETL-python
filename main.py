@@ -6,7 +6,7 @@ import glob
 import pandas
 import jaydebeapi
 
-# Подключение к базе Oracle
+# Подключение к бд Oracle
 
 conn = jaydebeapi.connect(
 'oracle.jdbc.driver.OracleDriver',
